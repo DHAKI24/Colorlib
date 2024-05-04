@@ -1,0 +1,815 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen  and (min-width: 300px) and (max-width: 600px) {
+	
+
+
+body
+
+{
+	font-family: poppins;
+}
+
+
+header
+{
+	width: 100%;
+	background-color: white;
+	font-family: poppins;
+	float: left;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+
+
+
+.title
+{
+	float: left;
+	font-size: 20px;
+	font-weight: 200;
+	margin: 0 0 0 25px;
+	padding: 20px 0;
+}
+
+.title a
+{
+	color: gray;
+	text-decoration: none;
+}
+
+.navi {
+	display: none;
+}
+
+.fa-bars{
+	font-size: 20px;
+	float: right;
+	margin: 24px 40px 0 0;
+}
+
+.sidebar{
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 999;
+	width: 50%;
+	height: 100vh;
+	background-color: rgb(45, 45, 45);
+	display: none;
+	flex-direction: column;
+	align-content: flex-start;
+	justify-content: flex-start;
+}
+
+.sidebar li{
+	list-style: none;
+	line-height: 40px;
+}
+
+.sidebar a{
+	color: white;
+	text-decoration: none;
+}
+
+.mark{
+	text-align: right;
+	font-size: 30px;
+}
+
+
+.search
+{
+	float: right;
+	margin: 24px 30px 0 0;
+}
+
+.tabicon
+{
+	width: 20px;
+}
+
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+
+
+.banner
+{
+	width: 100%;
+	height: 100vh;
+	background-image: url("../images/pexels-matt-hardy-1533720.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.glass
+{
+	background-color: rgba(0,0,0,0.71);
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	/*position: absolute;
+	position: fixed;
+	top: 0;
+	left: 0;*/
+}
+
+
+.heading
+{
+	width: 100%;
+	position: absolute;
+	top: 240px;
+	left: 0;
+	text-align: center;		
+}
+
+.tagline
+{
+	width: 100%;
+	font-size: 40px;
+	font-weight: 300;
+	color: white;
+}
+
+.subline
+{
+	font-size: 12px;
+	color: white;
+}
+
+
+
+
+.buttonA a
+{
+	text-decoration: none;
+	color: white;
+	background-color: #745CF9;
+	float: left;
+	margin: 60px 0 0 20%;
+	padding: 15px 15px;
+	font-size: 15px;
+	font-weight: 600;
+	border: 1px solid #745CF9;
+}
+
+
+.buttonA a:hover
+{
+	background-color: rgba(98,3,108,0.0);
+	transition-duration: 1s;
+}
+
+
+.buttonB a
+{
+	text-decoration: none;
+	color: white;
+	background-color: rgba(255,255,255,0.00);
+	float: left;
+	margin: 60px 0 0 20px;
+	padding: 15px 15px;
+	font-size: 15px;
+	font-weight: 600;
+	border: 1px solid white;
+}
+
+.buttonB a:hover
+{
+	background-color: white;
+	color: black;
+	transition-duration: 1s;
+		
+}
+
+
+
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+
+
+
+
+.seo
+{
+	width: 100%;
+	height: 800px;
+	font-family: poppins;
+	background-color: white;
+}
+
+.png
+{
+	width: 100%;
+	float: left;
+}
+
+.lap
+{
+	width: 100%;
+	margin-top: 80px;
+}
+
+.textarea
+{
+	width: 100%;
+	float: left;
+}
+
+.readmore
+{
+	background-color: #5D47D7;
+	width: 30%;
+	text-align: center;
+	margin: 30px 0 0 20px;
+	padding: 10px 0;
+}
+
+
+.textarea a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.friendly
+{
+	font-size: 25px;
+	margin: 10px 0 0 20px;
+}
+
+
+.para
+{
+	font-size: 15px;
+	margin: 40px 20px 0 20px;
+	color: gray;
+	line-height: 35px;
+}
+
+
+
+
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+
+
+.port
+{
+	width: 100%;
+	height: 820px;
+	font-family: poppins;
+	background-color: #F5F5F5;
+}
+
+
+.area
+
+{
+	width: 100%;
+	float: left;
+}
+
+
+.portfoilo
+
+{
+	font-size: 25px;
+	margin: 40px 0 0 20px;
+	color: black;
+}
+
+
+.lines
+{
+	font-size: 15px;
+	margin: 40px 20px 0 20px;
+	color: gray;
+	line-height: 35px;
+}
+
+.action
+{
+	background-color: #5D47D7;
+	width: 30%;
+	text-align: center;
+	margin: 30px 0 0 20px;
+	padding: 10px 0;
+}
+
+.area a
+{
+	color: white;
+	text-decoration: none;
+
+}
+
+
+.laptop
+{
+	width: 100%;
+	float: left;
+}
+
+
+.showcase
+{
+	width: 100%;
+	margin-top: 80px;
+}
+
+
+
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+
+
+.smallsection
+{
+	width: 100%;
+	height: 600px;
+	background-image: url("../images/pexels-emiliano-arano-1298684.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	
+}
+
+
+.parallax
+
+{
+	font-size: 40px;
+	font-weight: 300;
+	color: white;
+	padding-top: 120px;
+	
+}
+
+
+.paras
+{
+	font-size: 15px;
+	color: white;
+	margin-top: 60px;
+}
+
+
+
+.buttonC a
+
+{
+	color: white;
+	background-color: #745CF9;
+	padding: 15px 40px;
+	font-size: 15px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.buttonC
+
+{
+	margin-top: 50px;
+}
+
+
+
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+
+
+.hoarding
+{
+	width: 100%;
+	text-align: center;
+}
+
+
+.limit
+
+{
+	font-size: 40px;
+	font-weight: 300;
+	padding-top: 80px;
+}
+
+.subtext
+{
+	font-size: 15px;
+	color: gray;
+	margin-top: 30px;
+}
+
+.buttonD
+
+{
+	margin-top: 50px;
+}
+
+
+.buttonD a
+
+{
+	color: white;
+	background-color: #745CF9;
+	padding: 15px 15px;
+	font-size: 15px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+
+.hoard
+{
+	margin-top: 50px;
+	width: 100%;
+}
+
+.nature{
+	width: 100%;
+}
+
+
+
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+
+
+
+.prosec
+{
+	width: 100%;
+	height: 2750px;
+	background-color: #0E1015;
+	text-align: center;
+}
+
+
+
+.letterbar
+{
+	font-size: 40px;
+	font-weight: 300;
+	color: white;
+	padding-top: 60px;
+}
+
+.letterbar span
+{
+	font-size: 15px;
+	color: gray;
+	margin-top: 10px;
+}
+
+.top
+{
+	margin-top: 40px;
+}
+
+.top, .middle, .bottom
+{
+	width: 100%;
+	height: 250px;
+}
+
+
+/*.no1,.no2, .no3, .no4, .no5, .no6, .no7, .no8, .no9, .no10
+{
+	width: 25%;
+	height: 250px;
+	float: left;
+}*/
+.no1, .no2, .no3, .no4, .no5, .no6, .no7, .no8, .no9, .no10
+{
+	width: 100%;
+	height: 100%;
+	
+}
+.subbox
+{
+	width: 100%;
+	height: 250px;
+	float: left;
+	position: relative;
+}
+.hover
+{
+	width: 100%;
+	height: 250px;
+	background-color:rgba(0,0,0,0.71);
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	transition:1s;
+}
+
+.serial
+{
+	font-size: 25px;
+	color: white;
+	padding-top: 25%;
+	
+}
+
+.hover:hover
+{
+	opacity: 1;
+}
+
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+
+
+
+.custom
+{
+	width: 80%;
+	padding: 0 10%;
+	height: 450px;
+	background-image: url("../images/seashore.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+.customer
+{
+	font-size: 30px;
+	font-weight: 300;
+	color: white;
+	padding-top: 50px;
+}
+
+
+.below
+
+{
+	font-size: 12px;
+	color: white;
+	margin-top: 60px;
+}
+
+
+.round
+{
+	width: 80px;
+	height: 80px;
+	background-color: brown;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.reeves
+
+{
+	width: 100%;
+	height: 100%;
+}
+
+.wick
+{
+	font-size: 15px;
+	color: white;
+	margin-top: 20px; 
+}
+
+
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+
+
+
+.mnc
+{
+	width: 100%;
+	height: 500px;
+	text-align: center;
+}
+
+.clients
+{
+	font-size: 40px;
+	font-weight: 300;
+	padding-top: 50px;
+}
+
+
+.brands
+{
+	width: 100%;
+	margin-top: 40px;
+}
+
+
+
+.brands nav ul
+{
+	word-spacing: 200px;
+
+}
+
+.brands nav ul li 
+{
+	display: inline;
+	line-height: 150px;
+	
+	
+}
+
+.adobe
+{
+	width: 50px;
+}
+
+.sass
+{
+	width: 110px;
+}
+
+
+.css
+{
+	width: 90px;
+}
+
+.html
+{
+	width: 70px;
+}
+
+
+
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+
+
+.last
+{
+	width: 100%;
+	height: 250px;
+	background-color: #F5F5F5;
+}
+
+
+.lastline
+{
+	width: 60%;
+	font-size: 20px;
+	float: left;
+	margin-top: 95px;
+}
+
+
+.buttonE
+{
+	float: left;
+	margin-top: 105px;
+}
+
+
+
+.buttonE a
+
+{
+	color: white;
+	background-color: #745CF9;
+	padding: 10px 10px;
+	font-size: 12px;
+	font-weight: 600;
+	text-decoration: none;
+	margin-left: 30px;
+}
+
+
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+
+
+
+
+
+
+footer
+
+{
+	width: 100%;
+	height: 200px;
+	background-color: #0E1015;
+}
+
+.sent
+
+{
+	width: 100%;
+	height: 140px;
+	font-size: 12px;
+	float: left;
+	color: white;
+}
+
+.theme
+{
+	margin: 90px 0 0 10px;
+}
+
+.sent a
+
+{
+	text-decoration: none;
+	color: white;
+}
+
+.sent a:hover
+
+{
+	color: #5D47D7;
+	transition-duration: 1s;
+}
+
+.logos
+{
+	width: 100%;
+	float: left;
+}
+
+
+.logos nav ul
+{
+	word-spacing: 30px;
+	margin: 10px 60px 0 0px;
+	float: left;
+
+}
+
+.logos nav ul li 
+{
+	display: inline;
+	
+	
+}
+
+
+}
+
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+/*end end end*/
+
+
+
+
+
+
